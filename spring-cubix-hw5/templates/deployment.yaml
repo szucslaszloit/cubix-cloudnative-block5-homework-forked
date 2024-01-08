@@ -37,7 +37,7 @@ spec:
               port: management
             initialDelaySeconds: 1
             periodSeconds: 2
-            failureThreshold: 5
+            failureThreshold: 15
             timeoutSeconds: 1
           livenessProbe:
             httpGet:
